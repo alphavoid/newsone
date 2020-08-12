@@ -565,12 +565,14 @@ a#scrollUp:hover {
 /*------------------featured-area end------------------*/
 .banner-wrap {
     position: relative;
+    white-space: nowrap;
     z-index: 9;
     border-radius: 5px;
     overflow: hidden;
 }
 .banner-wrap:before {
     position: absolute;
+    white-space: nowrap;
     left: 0;
     top: 0;
     width: 100%;
@@ -593,6 +595,7 @@ a#scrollUp:hover {
 }
 .banner-wrap a {
     position: absolute;
+    white-space: nowrap;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -620,6 +623,7 @@ a#scrollUp:hover {
     line-height: 22px;
     border-bottom: 1px solid #e5e5e5;
 }
+body {min-width:300px;}
 .post-wrap {
     overflow: hidden;
     border: 1px solid #e5e5e5;
