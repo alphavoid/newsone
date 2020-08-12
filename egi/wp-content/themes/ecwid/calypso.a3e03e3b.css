@@ -9292,13 +9292,13 @@ html {
     background: 0 0;
     outline: 0;
     padding: 0;
-    -webkit-appearance: none
+    /* -webkit-appearance: none */
 }
 
 .calypso-page .calypso-search__icon-search {
     display: inline-block;
     transition: color .1s linear;
-    background: url(/wp-content/themes/common/svg/hpc/search-black.svg) no-repeat center center transparent;
+    background: url(../search-black.svg) no-repeat center center transparent;
     width: 16px;
     height: 16px;
     background-size: contain
@@ -13419,7 +13419,7 @@ ul.hpc-nav__dropdown-menu li a:hover {
 .calypso-menu__search .calypso-search__icon-search {
     width: 24px;
     height: 24px;
-    background: #000;
+    background:black;
     -webkit-mask: url(/wp-content/themes/common/svg/header/search.svg) no-repeat center center;
     mask: url(/wp-content/themes/common/svg/header/search.svg) no-repeat center center
 }
